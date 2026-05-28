@@ -1,0 +1,9 @@
+.pageNotFound {
+    max-width: 600px;
+    margin: 4rem auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.pageNotFound h2 {font-size: 2rem; margin-bottom: 1rem}
+.pageNotFound a {color: #cca353;}
