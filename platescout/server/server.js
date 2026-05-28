@@ -18,8 +18,7 @@ app.use(cors());
 app.use(cors({
     origin: [
         "http://localhost:5173",
-        //"https://you-platescoute.varcel.app",
-
+        "https://csci342-assignment8-varcel-chapmaa9.vercel.app/"
     ],
     credentials: true,
   }));
