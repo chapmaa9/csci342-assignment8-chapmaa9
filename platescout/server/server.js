@@ -14,7 +14,6 @@ const jwt      = require("jsonwebtoken");
 const app  = express();
 
 // Middleware — mount BEFORE any route.
-app.use(cors());
 app.use(cors({
     origin: [
         "http://localhost:5173",
