@@ -17,7 +17,7 @@ const app  = express();
 app.use(cors({
     origin: [
         "http://localhost:5173",
-        "https://csci342-assignment8-varcel-chapmaa9-nifxf3fo3.vercel.app/"
+        "https://csci342-assignment8-varcel-chapmaa9.vercel.app/"
     ],
     credentials: true,
   }));
